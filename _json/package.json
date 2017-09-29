@@ -1,0 +1,22 @@
+{
+  "name": "metabase",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Metabase Analytics Report Server",
+  "repository": "https://github.com/metabase/metabase",
+  "license": "private",
+  "engines": {
+    "node": "4.4.7",
+    "npm": "2.15.9"
+  },
+  "dependencies": {
+    "ace-builds": "^1.2.2",
+    "babel-polyfill": "^6.6.1"
+  },
+  "devDependencies": {
+    "@slack/client": "^3.5.4",
+    "add-asset-html-webpack-plugin": "^2.1.0",
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.20.0"
+  }
+}
